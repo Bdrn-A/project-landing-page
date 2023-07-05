@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.section {
+    display: flex;
+    padding: 16px 200px;
+}
+
+.section.header {
+    justify-content: space-between;
+}
