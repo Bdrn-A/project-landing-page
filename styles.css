@@ -28,12 +28,13 @@ button {
 .section {
     display: flex;
     padding: 16px 200px;
+    align-items: center;
 }
 
 .section.header {
     background-color: #1F2937;
     justify-content: space-between;
-    align-items: center;
+    
     gap: 64px;
 }
 
@@ -85,7 +86,7 @@ ul.nav {
     flex-direction: column;
     padding-top: 40px;
     padding-bottom: 120px;
-    align-items: center;
+    
     gap: 40px;
 }
 
@@ -192,4 +193,15 @@ ul.nav {
     border-style: solid;
     border-width: 2px;
     border-color: #e5e7eb;
+}
+
+.section.footer {
+    background-color: #1F2937;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section.footer .sub {
+    text-align: center;
 }
